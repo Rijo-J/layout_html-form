@@ -23,40 +23,28 @@
     >
       <fieldset class="form-fieldset">
         <legend>Personal information</legend>
-        <label
-          class="form-field"
-          for="surname"
-        >
+        <label class="form-field">
           Surname:
           <input
             name="surname"
-            id="surname"
             type="text"
             autocomplete="off"
             required
           >
         </label>
-        <label
-          class="form-field"
-          for="name"
-        >
+        <label class="form-field">
           Name:
           <input
             name="name"
-            id="name"
             type="text"
             autocomplete="off"
             required
           >
         </label>
-        <label
-          class="form-field"
-          for="age"
-        >
+        <label class="form-field">
           How old are You?
           <input
             name="age"
-            id="age"
             type="number"
             value="12"
             min="1"
@@ -64,25 +52,17 @@
             required
           >
         </label>
-        <label
-          class="form-field"
-          for="birth"
-        >
+        <label class="form-field">
           Full date of birth:
           <input
             name="birth"
-            id="birth"
             type="date"
           >
         </label>
-        <label
-          class="form-field"
-          for="agreement"
-        >
+        <label class="form-field">
           I accept the term of the agreement
           <input
             name="agreement"
-            id="agreement"
             type="checkbox"
             required
           >
@@ -90,10 +70,7 @@
       </fieldset>
       <fieldset class="form-fieldset">
         <legend>Registration</legend>
-        <label
-          class="form-field"
-          for="email"
-        >
+        <label class="form-field">
           E-mail:
           <input
             name="email"
@@ -102,10 +79,7 @@
             required
           >
         </label>
-        <label
-          class="form-field"
-          for="password"
-        >
+        <label class="form-field">
           Password:
           <input
             name="password"
@@ -137,36 +111,25 @@
             No
           </label>
         </div>
-        <label
-          for="color"
-          class="form-field"
-        >
+        <label class="form-field">
           What is your favorite color?
           <input
             type="color"
             name="color"
-            id="color"
           >
         </label>
-        <label
-          for="time"
-          class="form-field"
-        >
+        <label class="form-field">
           What time do you go to bed?
           <input
             type="time"
             name="time"
-            id="time"
+            step="1"
           >
         </label>
-        <label
-          for="favoriteCars"
-          class="form-field"
-        >
+        <label class="form-field">
           What are your favorite brand of cars?
           <select
             name="favoriteCars"
-            id="favoriteCars"
             multiple
           >
             <option value="bmw">BMW</option>
@@ -174,15 +137,11 @@
             <option value="lada">Lada</option>
           </select>
         </label>
-        <label
-          for="workrate"
-          class="form-field"
-        >
-          What time do you go to bed?
+        <label class="form-field">
+          How do you rate our work?
           <input
             type="range"
             name="workrate"
-            id="workrate"
             min="0"
             max="10"
             value="0"
@@ -191,30 +150,23 @@
       </fieldset>
       <fieldset class="form-fieldset">
         <legend>Additional info:</legend>
-        <label
-          class="form-field"
-          for="comments"
-        >
+        <label class="form-field">
           Comments:
           <textarea
             name="comments"
-            id="comments"
             cols="20"
             rows="2"
-          >
-          </textarea>
+         ></textarea>
         </label>
-        <label
-          for="recommend"
-          class="form-field"
-        >
+        <label class="form-field">
           Would you recommend us?
-          <select
-            name="recommend"
-            id="recommend"
-          >
-            <option value="yes">yes</option>
-            <option value="no">no</option>
+          <select name="recommend">
+            <option value="yes">
+              yes
+            </option>
+            <option value="no">
+              no
+            </option>
           </select>
         </label>
       </fieldset>
